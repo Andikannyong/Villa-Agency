@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Villa Agency</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css" />
+
+
+</head>
+<body>
+
+  <div class="sub-nav">
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
+
+        <div class="d-flex align-items-center flex-wrap gap-1">
+          <div class="info-item">
+            <i class="bi bi-envelope-fill"></i>
+            <a href="mailto:hello@villaagency.com">hello@villaagency.com</a>
+          </div>
+          <div class="divider d-none d-sm-block"></div>
+          <div class="info-item">
+            <i class="bi bi-geo-alt-fill"></i>
+            <a href="#">123 Luxury Blvd, Toronto, Canada</a>
+          </div>
+        </div>
+
+        <div class="social-icons info-right d-flex align-items-center">
+          <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" aria-label="Twitter / X"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  
+  <nav class="navbar navbar-expand-lg main-nav">
+    <div class="container">
+
+      
+      <a class="navbar-brand" href="#">
+        <div class="logo-icon">
+          <i class="bi bi-buildings-fill"></i>
+        </div>
+        <div class="logo-text">
+          <span>Villa</span>
+          <small>Luxury Agency</small>
+        </div>
+      </a>
+
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+              aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list" style="font-size:1.6rem; color:#0F1B2D;"></i>
+      </button>
+
+      
+      <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
+        <ul class="navbar-nav align-items-lg-center">
+          <li class="nav-item p-3">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item p-3">
+            <a class="nav-link" href="#">Properties</a>
+          </li>
+          <li class="nav-item p-3">
+            <a class="nav-link" href="#">Property Details</a>
+          </li>
+          <li class="nav-item p-3">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item p-3">
+            <a class="nav-link btn-schedule" href="#">
+              <i class="bi bi-calendar2-check-fill"></i> Schedule a Visit
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <section id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5500">
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+    </div>
+
+    <div class="carousel-inner h-100">
+      <div class="carousel-item active h-100">
+        <img
+          src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1600&auto=format&fit=crop"
+          class="hero-img"
+          alt="Luxury Villa Toronto"
+          onerror="this.style.display='none'; this.parentElement.classList.add('slide-1-bg');"
+        />
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content left">
+          <div class="hero-text-box">
+            <div class="hero-location bg-light text-orange w-50 p-2 align-self-start mb-3">
+            <i class="bi bi-geo-alt-fill"></i>
+             Toronto, Canada
+            </div>
+            <h1 class="hero-heading">
+              HURRAY! <br> Get the <span>Best Villa</span><br/>for You
+            </h1>
+            <p class="hero-sub">
+              Discover exclusive luxury villas handpicked just for you.
+              Experience premium living with world-class amenities and breathtaking views.
+            </p>
+            <div class="hero-actions">
+              <a href="#" class="btn-hero-primary">
+                <i class="bi bi-search"></i> Explore Properties
+              </a>
+              <a href="#" class="btn-hero-outline">
+                <i class="bi bi-play-circle"></i> Watch Tour
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="carousel-item h-100">
+        <img
+          src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600&auto=format&fit=crop"
+          class="hero-img"
+          alt="Modern Luxury Pool Villa"
+          onerror="this.style.display='none'; this.parentElement.classList.add('slide-2-bg');"
+        />
+        <div class="hero-overlay-center"></div>
+
+        <div class="hero-content center">
+          <div class="hero-text-box center-box">
+            <div class="hero-location bg-light text-orange w-50 p-2 align-self-start mb-3">
+              <i class="bi bi-geo-alt-fill"></i> Malibu, California
+            </div>
+            <h1 class="hero-heading">
+              PREMIUM LIVING <br> Where <span>Luxury</span><br/>Meets Comfort
+            </h1>
+            <p class="hero-sub">
+              Stunning oceanfront villas with infinity pools, private beaches
+              and panoramic sunsets — your dream lifestyle awaits.
+            </p>
+            <div class="hero-actions">
+              <a href="#" class="btn-hero-primary">
+                <i class="bi bi-house-heart-fill"></i> View Listings
+              </a>
+              <a href="#" class="btn-hero-outline">
+                <i class="bi bi-calendar2-check-fill"></i> Book a Visit
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="carousel-item h-100">
+        <img
+          src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1600&auto=format&fit=crop"
+          alt="Modern Interior Villa"
+          class="hero-img"
+          onerror="this.style.display='none'; this.parentElement.classList.add('slide-3-bg');"
+        />
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content right">
+          <div class="hero-text-box right-box">
+            <div class="hero-location bg-light text-orange w-50 p-2 align-self-start mb-3">
+              <i class="bi bi-geo-alt-fill"></i> Dubai, UAE
+            </div>
+            <h1 class="hero-heading1">
+              AWARD-WINNING SPACES <br>Redefine<br/><span class="edit1">Your Standard</span><br/>of Living
+            </h1>
+            <p class="hero-sub">
+              Architecturally stunning villas in Dubai's most sought-after
+              addresses — curated for those who accept nothing but the best.
+            </p>
+            <div class="hero-actions">
+              <a href="#" class="btn-hero-primary">
+                <i class="bi bi-star-fill"></i> See Elite Villas
+              </a>
+              <a href="#" class="btn-hero-outline">
+                <i class="bi bi-telephone-fill"></i> Talk to an Agent
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="about-section">
+    <div class="container-fluid px-0">
+      <div class="row g-0 align-items-stretch">
+
+        
+        <div class="col-lg-4 col-md-5 about-img-col">
+          <div class="about-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=900&auto=format&fit=crop"
+              alt="Exterior Apartment"
+              class="about-img"
+              onerror="this.style.background='#1a2c42'; this.src='';"
+            />
+          
+            <div class="about-badge">
+              <div class="badge-icon">
+                <i class="bi bi-buildings-fill"></i>
+              </div>
+              <div class="badge-text">
+                <span class="badge-num">500+</span>
+                <span class="badge-label">Properties Listed</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="col-lg-4 col-md-7 about-mid-col d-flex align-items-center">
+          <div class="about-mid-content">
+            <p class="section-label">WHO WE ARE</p>
+            <h2 class="about-heading">
+              We Find You The <span>Perfect</span> Place To Call Home
+            </h2>
+            <p class="about-body">
+              At Villa Agency, we believe that home is more than a building — it's a feeling.
+              For over a decade, we've curated exceptional luxury properties across the globe,
+              matching discerning clients with villas that speak to their lifestyle and ambition.
+            </p>
+            <p class="about-body">
+              Our dedicated team of real estate experts guides you seamlessly from discovery
+              to ownership, ensuring every step of your journey is effortless and inspiring.
+            </p>
+            <div class="about-signature">
+              <div class="sig-avatar">
+                <i class="bi bi-person-fill"></i>
+              </div>
+              <div>
+                <strong>James Harrington</strong>
+                <span>CEO & Lead Property Consultant</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="col-lg-4 col-12 about-feat-col d-flex align-items-center">
+          <div class="feat-grid">
+
+            <div class="feat-card">
+              <div class="feat-icon-wrap">
+                <i class="bi bi-aspect-ratio-fill"></i>
+              </div>
+              <div class="feat-info">
+                <h4>250 m²</h4>
+                <p>Total Flat Space</p>
+              </div>
+            </div>
+
+            <div class="feat-card">
+              <div class="feat-icon-wrap">
+                <i class="bi bi-file-earmark-check-fill"></i>
+              </div>
+              <div class="feat-info">
+                <h4>Contract Ready</h4>
+                <p>Clean legal documentation prepared</p>
+              </div>
+            </div>
+
+            <div class="feat-card">
+              <div class="feat-icon-wrap">
+                <i class="bi bi-credit-card-2-front-fill"></i>
+              </div>
+              <div class="feat-info">
+                <h4>Payment Process</h4>
+                <p>Flexible &amp; transparent payment plans</p>
+              </div>
+            </div>
+
+            <div class="feat-card">
+              <div class="feat-icon-wrap">
+                <i class="bi bi-shield-lock-fill"></i>
+              </div>
+              <div class="feat-info">
+                <h4>Safety 24/7</h4>
+                <p>Under full control around the clock</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+ 
+  <section class="video-section">
+    <div class="video-bg">
+      <img
+        src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1800&auto=format&fit=crop"
+        alt="Villa Background"
+        class="video-bg-img"
+        onerror="this.style.display='none';"
+      />
+      <div class="video-bg-overlay"></div>
+    </div>
+
+    
+    <div class="video-top-text">
+      <p class="section-label light">VIDEO VIEW</p>
+      <h2 class="video-heading">Get A Closer View &<br/>A Different Feeling</h2>
+      <p class="video-sub">Step inside our exclusive properties through an immersive visual experience</p>
+    </div>
+
+    
+    <div class="video-play-card">
+      <img
+        src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&auto=format&fit=crop"
+        alt="Villa Interior Preview"
+        class="play-card-img"
+        onerror="this.style.background='#1a2c42'; this.src='';"
+      />
+      <div class="play-card-overlay"></div>
+      <button class="play-btn" aria-label="Play video">
+        <i class="bi bi-play-fill"></i>
+      </button>
+    </div>
+
+   
+    <div class="stats-row">
+      <div class="container">
+        <div class="row g-0 justify-content-center">
+
+          <div class="col-md-4 col-12">
+            <div class="stat-card stat-card--left">
+              <div class="stat-card-icon">
+                <i class="bi bi-building-fill-check"></i>
+              </div>
+              <div class="stat-card-body">
+                <span class="stat-card-num" data-target="34">0</span>
+                <span class="stat-card-unit">+</span>
+                <p class="stat-card-label">Buildings Finished Now</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-12">
+            <div class="stat-card stat-card--mid">
+              <div class="stat-card-icon">
+                <i class="bi bi-briefcase-fill"></i>
+              </div>
+              <div class="stat-card-body">
+                <span class="stat-card-num" data-target="12">0</span>
+                <span class="stat-card-unit"> Yrs</span>
+                <p class="stat-card-label">Years of Experience</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-12">
+            <div class="stat-card stat-card--right">
+              <div class="stat-card-icon">
+                <i class="bi bi-trophy-fill"></i>
+              </div>
+              <div class="stat-card-body">
+                <span class="stat-card-num" data-target="24">0</span>
+                <span class="stat-card-unit">+</span>
+                <p class="stat-card-label">Awards Won — 2026</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <script>
+    document.querySelector('#heroCarousel').addEventListener('slide.bs.carousel', () => {
+      document.querySelectorAll('.hero-text-box').forEach(el => {
+        el.style.animation = 'none';
+        void el.offsetWidth;
+        el.style.animation = '';
+      });
+    });
+
+    
+    function animateCount(el) {
+      const target = +el.dataset.target;
+      const duration = 1800;
+      const step = target / (duration / 16);
+      let current = 0;
+      const timer = setInterval(() => {
+        current += step;
+        if (current >= target) { current = target; clearInterval(timer); }
+        el.textContent = Math.floor(current);
+      }, 16);
+    }
+
+    const statsObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          animateCount(entry.target);
+          statsObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.5 });
+
+    document.querySelectorAll('.stat-card-num[data-target]').forEach(el => statsObserver.observe(el));
+  </script>
+
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    // Re-animate hero text on each slide change
+    document.querySelector('#heroCarousel').addEventListener('slide.bs.carousel', () => {
+      document.querySelectorAll('.hero-text-box').forEach(el => {
+        el.style.animation = 'none';
+        void el.offsetWidth; // reflow
+        el.style.animation = '';
+      });
+    });
+  </script>
+
+</body>
+</html>
