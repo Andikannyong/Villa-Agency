@@ -258,15 +258,15 @@
       align-items: center;
     }
 
-    /* Slide 1 – left aligned */
+ 
     .hero-content.left { 
       justify-content: flex-start; ;
     }
-    /* Slide 2 – left aligned */
+    
     .hero-content.center { 
       justify-content: flex-start; 
     }
-    /* Slide 3 – left aligned */
+   
     .hero-content.right { justify-content: flex-start; }
 
     .hero-text-box {
@@ -447,7 +447,7 @@
       text-transform: uppercase;
     }
 
-    /* Carousel controls */
+  
     .carousel-control-prev,
     .carousel-control-next {
       width: 50px;
@@ -609,7 +609,7 @@
     .badge-num { display: block; font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 700; line-height: 1; }
     .badge-label { font-size: 0.75rem; opacity: .85; letter-spacing: 1px; }
 
-    /* Middle column */
+   
     .about-mid-col {
       background: #fff;
       padding: 70px 50px;
@@ -784,7 +784,7 @@
       margin: 0 auto;
     }
 
-    /* Play card */
+    
     .video-play-card {
       position: relative;
       z-index: 3;
@@ -841,7 +841,7 @@
       box-shadow: 0 0 0 20px rgba(232,114,42,.25), 0 0 0 40px rgba(232,114,42,.12);
     }
 
-    /* Stats row */
+    
     .stats-row {
       position: relative;
       z-index: 4;
@@ -933,7 +933,7 @@
       .stat-card { padding: 32px 20px; flex-direction: column; text-align: center; }
     }
 
-    /* ── BEST DEAL SECTION ── */
+  
     .deal-section {
       background: var(--light-bg);
       padding: 90px 0 80px;
@@ -959,7 +959,7 @@
 
     .deal-title span { color: var(--orange); }
 
-    /* Tab buttons */
+  
     .deal-tabs {
       display: flex;
       gap: 10px;
@@ -994,7 +994,7 @@
       background: transparent;
     }
 
-    /* Deal body layout */
+   
     .deal-body {
       display: grid;
       grid-template-columns: 260px 1fr 300px;
@@ -1005,7 +1005,7 @@
       box-shadow: 0 20px 60px rgba(0,0,0,.08);
     }
 
-    /* Specs column */
+   
     .deal-specs {
       background: var(--dark);
       padding: 40px 32px;
@@ -1088,7 +1088,7 @@
       letter-spacing: 1px;
     }
 
-    /* Image column */
+  
     .deal-image-col {
       display: flex;
       flex-direction: column;
@@ -1152,7 +1152,7 @@
       object-fit: cover;
     }
 
-    /* Info column */
+   
     .deal-info {
       padding: 40px 32px;
       border-left: 1px solid #f0f0f0;
@@ -1256,7 +1256,7 @@
       transform: translateY(-2px);
     }
 
-    /* ── PROPERTIES SECTION ── */
+  
     .properties-section {
       background: #fff;
       padding: 90px 0 100px;
@@ -1302,7 +1302,7 @@
       color: #fff;
     }
 
-    /* Filter pills */
+ 
     .prop-filters {
       display: flex;
       gap: 10px;
@@ -1328,7 +1328,7 @@
       color: #fff;
     }
 
-    /* Property card */
+   
     .prop-card {
       border-radius: 16px;
       overflow: hidden;
@@ -1364,7 +1364,7 @@
 
     .prop-card:hover .prop-img { transform: scale(1.08); }
 
-    /* overlaid button on hover */
+   
     .prop-overlay {
       position: absolute;
       inset: 0;
@@ -1430,7 +1430,7 @@
 
     .prop-fav:hover, .prop-fav.active { color: #e33; background: #fff; }
 
-    /* card body */
+  
     .prop-body { padding: 22px 22px 18px; }
 
     .prop-type {
@@ -1593,7 +1593,7 @@
       max-width: 520px;
     }
 
-    /* Floating panels */
+ 
     .contact-panels-wrap {
       position: relative;
       z-index: 10;
@@ -1615,7 +1615,7 @@
       overflow: hidden;
     }
 
-    /* Map panel */
+
     .map-header {
       display: flex;
       align-items: center;
@@ -1680,7 +1680,7 @@
 
     .map-directions:hover { background: var(--orange); color: #fff; }
 
-    /* Form panel */
+   
     .form-top {
       display: flex;
       align-items: center;
@@ -1825,7 +1825,7 @@
       box-shadow: 0 8px 24px rgba(232,114,42,.4);
     }
 
-    /* Info cards */
+  
     .contact-info-row {
       padding: 48px 0 70px;
     }
@@ -1898,7 +1898,7 @@
       color: var(--dark);
     }
 
-    /* ── FOOTER ── */
+   
     .footer-wave {
       background: var(--light-bg);
       line-height: 0;
@@ -1918,7 +1918,7 @@
       padding: 70px 0 50px;
     }
 
-    /* Brand */
+   
     .footer-brand .footer-logo {
       display: flex;
       align-items: center;
@@ -1985,7 +1985,7 @@
       color: #fff;
     }
 
-    /* Footer columns */
+   
     .footer-col-title {
       font-family: 'Playfair Display', serif;
       font-size: 1rem;
@@ -2033,7 +2033,7 @@
       padding-left: 4px;
     }
 
-    /* Newsletter */
+   
     .footer-newsletter-text {
       font-size: 0.85rem;
       color: #8a9bb0;
@@ -2151,7 +2151,7 @@
     .footer-legal a:hover { color: var(--orange); }
     .footer-legal span { color: #2e4057; }
 
-    /* Back to top */
+  
     .back-to-top {
       position: fixed;
       bottom: 30px;
